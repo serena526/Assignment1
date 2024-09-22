@@ -19,11 +19,11 @@ startButton.addEventListener('click', function() {
   generateBalls(); 
 });
 
-// Function to generate balls
+
 function generateBalls() {
-  ballContainer.innerHTML = ''; // Clear existing balls
+  ballContainer.innerHTML = ''; 
   attempts = 0; 
-  attemptsLeftText.textContent = maxAttempts; // Reset attempts left display
+  attemptsLeftText.textContent = maxAttempts; 
   correctNumber = Math.floor(Math.random() * 40) + 1; 
   console.log("Correct number is:", correctNumber); 
   for (let i = 1; i <= 40; i++) {
