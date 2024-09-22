@@ -1,0 +1,69 @@
+/* Background for the whole app */
+body {
+    background: linear-gradient(45deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #333;
+  }
+  
+  /* Common title style */
+  .title {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  /* Style for the start button */
+  .start-btn {
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the reset button */
+  .reset-btn {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+  }
+  
+  /* Ball styling */
+  .ball {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .ball:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .correct {
+    background-color: green !important;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+  }
+  
+  .incorrect {
+    background-color: red !important;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  }
+  
+  /* Add a subtle box shadow for the modal */
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
